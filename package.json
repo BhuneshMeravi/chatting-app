@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server.js",
-    "build": "yarn install && yarn workspace frontend install && yarn workspace frontend build"
+    "build": "yarn install && yarn build"
   },
   "author": "bhunesh meravi",
   "license": "MIT",
