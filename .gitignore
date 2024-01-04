@@ -1,0 +1,96 @@
+# Node.js
+node_modules/
+
+# npm
+package-lock.json
+npm-debug.log
+
+# Yarn
+yarn.lock
+.yarn-integrity
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+pids
+logs
+results
+
+# Editor files
+.vscode/
+.idea/
+
+# Testing
+coverage/
+
+# Compiled binary addons
+build/Release/
+
+# Dependency directories
+jspm_packages/
+
+# Typescript configuration
+tsconfig.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# nuxt.js
+.nuxt/
+dist/
+
+# nest.js
+/dist/
+
+# Sapper
+__sapper__/
+
+# Next.js
+.next/
+out/
+
+# Gatsby
+.cache/
+public/
+
+# Jest
+coverage/
+
+# serverless
+.serverless/
+
+# FuseBox
+.fusebox/
+
+# Parcel
+.cache/
+dist/
+
+# Meteor
+.local/
+.meteor/local/
+*.meteor/packages
+
+# System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
