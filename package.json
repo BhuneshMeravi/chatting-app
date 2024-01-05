@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server.js",
-    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+    "build": "yarn install && yarn install --cwd frontend && yarn run build --cwd frontend"
   },
   "author": "bhunesh meravi",
   "license": "MIT",
