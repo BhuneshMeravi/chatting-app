@@ -25,5 +25,6 @@
     "packages": [
       "frontend"
     ]
-  }
+  },
+  "repository": "https://github.com/BhuneshMeravi/chatting-app.git"
 }
