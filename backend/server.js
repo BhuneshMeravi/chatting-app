@@ -1,5 +1,5 @@
 const express = require("express");
-// const cors = require("cors");
+const cors = require("cors");
 // const { chats } = require("./data/data");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
@@ -12,11 +12,13 @@ dotenv.config();
 connectDB();
 
 const app = express();
-// app.use(
-//   cors({
-//     origin: "*",
-//   })
-// );
+app.use(
+  cors({
+    origin: "*",
+    methods: ["POST", "GET"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 // app.get("/", (req, res) => {
